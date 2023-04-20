@@ -35,6 +35,7 @@ pipeline{
     spec: '''{
           "files": [
             {
+               "pattern": "*.jar",
               "target": "test-hello"
             }
          ]
